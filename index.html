@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>狼人殺 版型介紹</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- 左側：版型選擇區 -->
+        <div class="left-panel">
+            <div class="left-head">
+                <h2>版型選擇</h2>
+            </div>
+            <div class="left-body" id="setup-list"></div>
+        </div>
+
+        <!-- 右側主內容 -->
+        <div class="right-panel">
+            <!-- 右上：版型標題+特殊規則 -->
+            <div class="top-head">
+                <div class="setup-title-line">
+                    <span class="setup-name"></span>
+                    <span class="setup-rule-tip"></span>
+                </div>
+            </div>
+
+            <!-- 右下：角色分類列表 -->
+            <div class="top-body" id="role-container"></div>
+
+            <!-- 底部：角色三欄介紹 -->
+            <div class="bottom-box" id="role-intro">
+                <div class="intro-wrap">
+                    <div class="intro-left"></div>
+                    <div class="intro-mid"></div>
+                    <div class="intro-right"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="roles.js"></script>
+    <script src="setups.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
