@@ -170,7 +170,7 @@ body {
 /* ========== 底部角色介紹 左中右三欄 ========== */
 .bottom-box {
     flex-shrink: 0;
-    height: 180px;
+    height: 360px;
     background: #1e1e2f;
     border-radius: 12px;
     padding: 16px;
@@ -205,7 +205,7 @@ body {
 .intro-right {
     padding-right: 8px;
     line-height: 1.65;
-    font-size: 14px;
+    font-size: 16px;
     color: #eee;
     overflow-y: auto;
 }
